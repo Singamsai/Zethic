@@ -1,0 +1,52 @@
+.page6{
+    margin: 2rem;
+}
+.page6 h1{
+    text-align: center;
+    color: red;
+}
+.page6_img{
+    margin: 4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page6_img2{
+    position: absolute;   
+    left:30%;
+}
+.page6_img img{
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.page4_head2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.page4_head2 button{
+    padding: .3rem 1rem;
+    border-radius: 6px;
+    color: gray;
+    border: 1px solid rgb(196, 177, 177);
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.page4_head2 button:active{
+    color:black;
+}
+@media (max-width:600px){
+    .page6{
+        width: 850px;
+    }
+    .page6_img2{
+        position: absolute;   
+        left:60%;
+    }
+    .page6_img img{
+        width:440px;
+    }
+}

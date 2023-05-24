@@ -1,0 +1,46 @@
+.page3{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+
+.page3 h1{
+    text-align: center;
+    color: red;
+}
+.page3_body{
+    margin: 1rem 0;
+}
+.page3_body h1{
+    font-family: Garamond, serif;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.mdstar{
+    font-size:3rem;
+    margin-right:14rem;
+}
+.flowerstar{
+    color:rgb(167, 110, 5);
+    font-size:3rem; 
+        margin-left:14rem;
+}
+.page3_icon{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width:600px){
+    .page3{
+        width: 850px;
+    }
+    .flowerstar{
+        color:rgb(167, 110, 5);
+        font-size:3rem; 
+        margin-left:0;
+    }
+    .mdstar{
+        font-size:3rem;
+        margin-right:0;
+    }
+}

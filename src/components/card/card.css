@@ -1,0 +1,15 @@
+.card{
+ width: 300px;   
+}
+.card img{
+    border-radius: 6px;
+}
+.card p{
+    padding: 1rem 0;
+}
+@media (max-width:600px){
+    .card img{
+        width: 180px;
+        height: 250px;
+    }
+}

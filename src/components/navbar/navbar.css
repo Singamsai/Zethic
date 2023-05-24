@@ -1,0 +1,35 @@
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.navbar_opt{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.navbar_opt p{
+    font-size: 1.2rem ;
+    font-weight: 500;
+}
+.navbar_opt button{
+    background-color: rgb(167, 110, 5);
+    color: #fff;
+    border-radius: 6px;
+    padding: .6rem 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.projects{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:600px){
+    .navbar{
+        width: 900px;
+    }
+}

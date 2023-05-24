@@ -1,0 +1,148 @@
+.page1{
+    margin:0 2rem;
+}
+.page1_top{
+    display: flex;
+}
+.page1_top_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 2rem;
+}
+.page1_h1{
+    margin-left:-7.5rem;
+}
+.page1_top_text h1{
+    font-size: 4.5rem;
+}
+.page1_top_text2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.page1_amt{
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem 0;
+}
+.page1_amt h1{
+    font-size: 3rem;
+    color:red;
+}
+.page1_amt p{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.page1_inpBox{
+    display: flex;
+    border-radius: 6px;
+    background-color: white;
+    align-items: center;
+    margin: 1rem 0;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+.page1_inpBox input{
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    width: 450px;
+}
+.page1_inpBox p{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.page1_inpBox button{
+    background-color: rgb(167, 110, 5);
+    color: #fff;
+    border-radius: 6px;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.page1_mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.page1_mid1{
+    margin-left: 14rem;
+    text-align: center;
+}
+.page1_mid1 p{
+    color: gray;    
+    font-weight: 600;
+}
+.page1_mid p{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.page1_buttom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 3rem 0;
+}
+.page1_btm_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page1_btm_text .top{
+    display: flex;
+    justify-content: space-between;
+}
+.page1_btm_text .top p{
+    color: gray;    
+    font-weight: 600;
+}
+.page1_btm1{
+    text-align: center;
+    margin-right: 12rem;
+}
+.page1_buttomImg{
+    display: flex;
+    gap:1.5rem;
+}
+.pg1_btm_txtp{
+    font-size: 1.2rem;
+    color: rgb(187, 178, 178);
+}
+@media only screen and (max-width: 600px){
+    .page1{
+        width: 850px;
+    }
+    .page1_topImg{
+        width: 250px;
+        height: 380px;
+    }
+    .page1_inpBox input{
+        width: 300px;
+    }
+    .page1_h1{
+        margin-left: -6rem;
+    }
+    .page1_btm1{
+        margin: 0;
+    }
+    .page1_top_text h1{
+        font-size: 3.5rem;
+    }
+    .page1_mid{
+        padding: 0 2rem;
+    }
+    .page1_buttom{
+        gap: 2rem;
+    }
+
+    .page1_mid1{
+        margin-left: 5rem;
+    }
+    
+}

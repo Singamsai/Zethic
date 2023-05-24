@@ -1,0 +1,56 @@
+.page7{
+    margin: 4rem 2rem;
+    display: flex;
+    padding: 4rem;
+    text-align: center;
+    background-color: rgb(248, 235, 211);
+}
+
+.page7_body button{
+    background-color: rgb(167, 110, 5);
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 2rem;
+}
+.page5_footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 300px;
+}
+.page5_footer div{
+    border: 1px solid black;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page7_star{
+    font-size:3rem;
+    margin-right:14rem;
+}
+.page5_footer p{
+    background-color: yellow;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    border: 1px solid  black;
+}
+@media (max-width:600px){
+    .page7{
+        width: 850px;
+    }
+    .page5_footer{
+        width:80px;
+    }
+    .page7_star{
+        margin:0;
+        width:80px;
+    }
+}

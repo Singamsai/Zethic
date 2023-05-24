@@ -1,0 +1,61 @@
+.page4{
+ margin: 2rem;
+}
+.page4 h1{
+    color: red;
+}
+.page4_head{
+    margin:1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page4_head1{
+    display: flex;
+    gap: 1rem
+}
+.page4_head1 button{
+    border-radius: 24px;
+    padding: .6rem 1rem;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid black;
+}
+.page4_head1 button:hover{
+    color: #fff;
+    background-color: rgb(167, 110, 5);
+    border:none;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+.page4_head2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.page4_head2 button{
+    padding: .3rem 1rem;
+    border-radius: 6px;
+    color: gray;
+    border: 1px solid rgb(196, 177, 177);
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.page4_head2 button:active{
+    color:black;
+}
+@media (max-width:600px){
+    .page4{
+        width: 850px;
+    }
+    .page4_head1 button{
+        border-radius: 24px;
+        padding: .6rem ;
+        font-size: .8rem;
+    }
+}

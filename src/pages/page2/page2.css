@@ -1,0 +1,48 @@
+.page2 {
+  margin: 2rem;
+}
+.page2_body {
+  display: flex;
+  justify-content: space-between;
+}
+.page2_body1 {
+  margin: 1rem 0;
+}
+.page2_body1 p {
+  margin-left: 0.46rem;
+  height: 6rem;
+  border-left: 2px solid black;
+}
+.page2_body1 h3 {
+  display: flex;
+  align-items: center;
+}
+.page2_body_img {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.page2_line {
+  margin: 0.5rem 0;
+}
+.exploremore {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 600px) {
+  .page2 {
+    width: 800px;
+  }
+  .page2_head img {
+    width: 100%;
+  }
+  .page2_body_img {
+    margin-top: 2rem;
+    text-align: end;
+  }
+  .page2_body_img img {
+    width: 200px;
+    height: 300px;
+  }
+}
