@@ -3,7 +3,8 @@ import "./page5.css";
 
 export default function Page5() {
   return (
-    <div className="page5">
+    <div className="page_5">
+      <div className="page5">
       <img
         src="https://www.zricks.com/ImagesPostProject/200000000000204069/DLF_Square_and_Nestle_House_7.jpg"
         height={400}
@@ -25,6 +26,7 @@ export default function Page5() {
         <div className="page5_footer">
           <div><p></p></div>
         </div>
+    </div>
     </div>
   );
 }

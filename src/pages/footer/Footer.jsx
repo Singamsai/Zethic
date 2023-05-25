@@ -3,7 +3,8 @@ import './footer.css'
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className='foot'>
+      <div className='footer'>
       <div className='footer_left'>
         <div>
             <h1>Discover <br/>Plots</h1><br/><br/>
@@ -30,6 +31,7 @@ export default function Footer() {
         </div>
         <p>Privacy Policy  - Privacy Collection Notice . Terms</p>
       </div>
+    </div>
     </div>
   )
 }

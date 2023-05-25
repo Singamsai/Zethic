@@ -1,3 +1,7 @@
+.page_5{
+    height: 100%;
+    width: 100%;
+}
 .page5{
     margin: 3rem 2rem;
     display: flex;
@@ -40,21 +44,24 @@
     border-radius: 50%;
     border: 1px solid  black;
 }
-@media (max-width:600px){
+@media only screen and (max-width: 600px) {
+
     .page5{
-        width:900px;
-        margin: 0 2rem;
-        padding: 2rem;
-        gap: 4rem;
+        flex-direction: column;
+        padding: 1rem ;
     }
     .page5 img{
+        border-radius: 0 3rem 0 3rem;
         width: 250px;
         height: 300px;
     }
-    .page5_footer{
-        width: 50px;
-    }
     .page5_mid{
-        width: 500px;
-    }   
+        margin-top: 2rem;
+    }
+    .page5_mid2{
+        gap:2rem;
+    }
+    .page5_footer{
+        width: 200px;
+    }
 }

@@ -36,7 +36,8 @@ export default function Page2() {
     }
 
   return (
-    <div className="page2">
+    <div className="page_2">
+      <div className="page2">
       <div className="page2_head">
         <img src={page2Image1} alt="" />
       </div>
@@ -62,6 +63,7 @@ export default function Page2() {
         </div>
       </div>
       <p className="exploremore"><HiOutlineArrowNarrowRight/>Explore More</p>
+    </div>
     </div>
   );
 }

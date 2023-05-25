@@ -1,3 +1,7 @@
+.page_6{
+    height: 100%;
+    width: 100%;
+}
 .page6{
     margin: 2rem;
 }
@@ -38,15 +42,21 @@
 .page4_head2 button:active{
     color:black;
 }
-@media (max-width:600px){
-    .page6{
-        width: 850px;
+@media only screen and (max-width: 600px) {
+    .page6_img{
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-between;
+        align-items: center;
     }
     .page6_img2{
-        position: absolute;   
-        left:60%;
+        position: relative;   
+        left: 0;
+        width: 270px;
     }
     .page6_img img{
-        width:440px;
+        width: 250px;
     }
 }

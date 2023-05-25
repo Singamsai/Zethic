@@ -5,7 +5,8 @@ import {MdArrowBackIosNew,MdArrowForwardIos} from 'react-icons/md'
 
 export default function Page4() {
   return (
-    <div className='page4'>
+    <div className='page_4'>
+      <div className='page4'>
       <h1>Feature Projects</h1>
       <div className='page4_head'>
         <div className='page4_head1'>
@@ -27,6 +28,7 @@ export default function Page4() {
         <Card link="https://www.huahinschool.com/wp-content/gallery/the-empty-plot-of-green-land/the-empty-plot-of-green-land-2.JPG"/>
         <Card link="https://cdn.remax.co.za/listings/2912876/original/pic_37558491.jpg"/>
       </div>
+    </div>
     </div>
   )
 }

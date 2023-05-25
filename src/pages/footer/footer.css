@@ -1,6 +1,9 @@
-.footer{
+.foot{
+    height: 100%;
     width: 100%;
-    margin: 2rem 0;
+}
+.footer{
+    margin: 2rem;
     background-color: whitesmoke;
     display: flex;
     height: 350px;
@@ -17,8 +20,24 @@
     gap: 2rem;
     justify-content: space-between;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .footer{
-        width: 900px;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 2rem ;
+        gap: 3rem;
+        justify-content: space-between;
     }
+    .footer_left, .footer_right{
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer_right1 {
+        flex-direction: column;
+        gap: 3rem;
+    }   
 }

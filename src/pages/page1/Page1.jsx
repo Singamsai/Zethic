@@ -9,13 +9,12 @@ import { GiPolarStar } from "react-icons/gi";
 
 export default function Page1() {
   return (
-    <div className="page1">
+    <div className="page_1">
+      <div className="page1">
       <div className="page1_top">
         <img
           src={plotImage}
           className="page1_topImg"
-          width={500}
-          height={580}
           alt=""
         ></img>
         <div className="page1_top_text">
@@ -72,13 +71,12 @@ export default function Page1() {
         <div className="page1_buttomImg">
           <img
             src={plotImage2}
-            height={300}
-            width={200}
             alt=""
           />
-          <img src={plotImage3} height={300} width={200} alt="" />
+          <img src={plotImage3} alt="" />
         </div>
       </div>
+    </div>
     </div>
   );
 }

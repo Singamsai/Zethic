@@ -1,8 +1,12 @@
+.page_7{
+    width: 100%;
+    height: 100%;
+}
 .page7{
     margin: 4rem 2rem;
     display: flex;
+    justify-content: space-between;
     padding: 4rem;
-    text-align: center;
     background-color: rgb(248, 235, 211);
 }
 
@@ -16,13 +20,12 @@
     font-size: 1rem;
     margin: 2rem;
 }
-.page5_footer{
+.page7_footer{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 300px;
 }
-.page5_footer div{
+.page7_footer div{
     border: 1px solid black;
     height: 3rem;
     width: 3rem;
@@ -33,24 +36,19 @@
 }
 .page7_star{
     font-size:3rem;
-    margin-right:14rem;
 }
-.page5_footer p{
+.page7_footer p{
     background-color: yellow;
     height: 1.6rem;
     width: 1.6rem;
     border-radius: 50%;
     border: 1px solid  black;
 }
-@media (max-width:600px){
+@media only screen and (max-width: 600px) {
     .page7{
-        width: 850px;
-    }
-    .page5_footer{
-        width:80px;
-    }
-    .page7_star{
-        margin:0;
-        width:80px;
-    }
+        margin: 2rem;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+    }   
 }

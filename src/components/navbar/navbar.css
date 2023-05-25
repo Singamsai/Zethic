@@ -1,10 +1,12 @@
+.nav{
+    width: 100%;
+}
 .navbar{
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    
 }
 .navbar_opt{
     display: flex;
@@ -28,8 +30,27 @@
     display: flex;
     align-items: center;
 }
-@media (max-width:600px){
+@media only screen and (max-width: 600px) {
     .navbar{
-        width: 900px;
+        height: 80px;
+        padding: 1rem;
+    }    
+    .navbar h1{
+        font-size: 1rem;
+    }      
+    .navbar_opt{
+        gap: .5rem;
+    }
+    .navbar_opt p{
+        font-size: .6rem;
+    }
+    .navbar_opt button{
+        background-color: rgb(167, 110, 5);
+        color: #fff;
+        border-radius: 6px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        font-size: .4rem;
     }
 }
